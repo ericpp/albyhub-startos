@@ -1,17 +1,17 @@
-id: nostr-wallet-connect
-title: Nostr Wallet Connect
-version: 0.4.2.1
-release-notes: Implemented LND 0.18 compatibility 
+id: albyhub
+title: Alby Hub
+version: 0.6.2
+release-notes: Alby Hub initial release
 license: Apache-2.0
 wrapper-repo: "https://github.com/horologger/nostr-wallet-connect-startos"
-upstream-repo: "https://github.com/getAlby/nostr-wallet-connect"
-support-site: "https://github.com/getAlby/nostr-wallet-connect/issues"
-marketing-site: "https://nwc.dev/"
+upstream-repo: "https://github.com/getAlby/nostr-wallet-connect-next"
+support-site: "https://github.com/getAlby/nostr-wallet-connect-next/issues"
+marketing-site: "https://getalby.com/"
 build: ["make"]
 description:
-  short: An open protocol for connecting lightning wallets to apps
+  short: Alby Hub for Start9
   long: |
-    NWC allows for sustained interaction between Bitcoin lightning wallets and apps. Once an app connection is created, the app can request payments through a Nostr relay.
+    Connect your Start9 to the world of Bitcoin apps.
 assets:
   license: LICENSE
   icon: nwc-logo.png
@@ -27,7 +27,7 @@ main:
 health-checks:
   web-ui:
     name: Web UI
-    success-message: Nostr Wallet Connect UI is ready
+    success-message: Alby Hub is ready
     type: script
 config:
   get:

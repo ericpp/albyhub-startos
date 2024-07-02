@@ -12,7 +12,7 @@ export const getConfig: T.ExpectedExports.getConfig = compat.getConfig({
       "description": "The Tor address of the network interface",
       "type": "pointer",
       "subtype": "package",
-      "package-id": "nostr-wallet-connect",
+      "package-id": "albyhub",
       "target": "tor-address",
       "interface": "main",
     },
@@ -21,7 +21,7 @@ export const getConfig: T.ExpectedExports.getConfig = compat.getConfig({
       "description": "The LAN address of the network interface",
       "type": "pointer",
       "subtype": "package",
-      "package-id": "nostr-wallet-connect",
+      "package-id": "albyhub",
       "target": "lan-address",
       "interface": "main",
     },
@@ -29,8 +29,8 @@ export const getConfig: T.ExpectedExports.getConfig = compat.getConfig({
         "type": "string",
         "name": "Nostr Relay",
         "default": "wss://relay.getalby.com/v1",
-        "description": "The Nostr Relay to use for Nostr Wallet Connect connections",
+        "description": "The Nostr Relay to use for Albyhub connections",
         "copyable": true,
-        "nullable": false,    
+        "nullable": false,
     }
   });
