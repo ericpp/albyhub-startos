@@ -2,13 +2,13 @@
   <img src="nwc-logo.png" alt="Project Logo" width="21%">
 </p>
 
-# Nostr Wallet Connect for StartOS
+# Alby Hub for StartOS
 
-[Nostr Wallet Connect](https://nwc.dev/) allows for sustained interaction between Bitcoin lightning wallets and apps. Once an app connection is created, the app can request payments through a Nostr relay. This repository creates the `s9pk` package that is installed to run `Nostr Wallet Connect` on [StartOS](https://github.com/Start9Labs/start-os/).
+This repository creates the `s9pk` package that is installed to run `Alby Hub` on [StartOS](https://github.com/Start9Labs/start-os/).
 
 ## Dependencies
 
-Prior to building the `nostr-wallet-connect` package, it's essential to configure your build environment for StartOS services. You can find instructions on how to set up the appropriate build environment in the [Developer Docs](https://docs.start9.com/latest/developer-docs/packaging).
+Prior to building the `albyhub` package, it's essential to configure your build environment for StartOS services. You can find instructions on how to set up the appropriate build environment in the [Developer Docs](https://docs.start9.com/latest/developer-docs/packaging).
 
 - [docker](https://docs.docker.com/get-docker)
 - [docker-buildx](https://docs.docker.com/buildx/working-with-buildx/)
@@ -19,7 +19,7 @@ Prior to building the `nostr-wallet-connect` package, it's essential to configur
 
 ## Cloning
 
-Clone the **Nostr Wallet Connect** package repository locally.
+Clone the **Alby Hub** package repository locally.
 
 ```
 git clone https://github.com/horologger/nostr-wallet-connect-startos.git
@@ -28,7 +28,7 @@ cd nostr-wallet-connect-startos
 
 ## Building
 
-To build the **Nostr Wallet Connect** service as a universal package, run the following command:
+To build the **Alby Hub** service as a universal package, run the following command:
 
 ```
 make
@@ -58,10 +58,10 @@ start-cli auth login
 make install
 ```
 
-**Tip:** You can also install the `nostr-wallet-connect.s9pk` by sideloading it under the **StartOS > System > Sideload a Service** section.
+**Tip:** You can also install the `albyhub.s9pk` by sideloading it under the **StartOS > System > Sideload a Service** section.
 
 ## Verify Install
 
-Go to your StartOS Services page, select **Nostr Wallet Connect** and start the service.
+Go to your StartOS Services page, select **Alby Hub** and start the service.
 
 **Done!**
